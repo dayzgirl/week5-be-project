@@ -1,6 +1,7 @@
 package vergne.daisy;
 
 public interface Logger {
-    void log(String message);
+    //methods for and error logging
+	void log(String message);
     void error(String message);
 }
